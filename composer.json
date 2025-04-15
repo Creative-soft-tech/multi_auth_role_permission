@@ -1,5 +1,5 @@
 {
-    "name": "shafiulnaeem/multi-auth-role-permission",
+    "name": "creative-soft-tech/multi_auth_role_permission"
     "description": "Multi auth role permission where user easily assign role permission",
     "license": "MIT",
     "keywords": [
@@ -10,12 +10,12 @@
         "permission",
         "multi-auth-role-permission"
     ],
-    "homepage": "https://github.com/ShafiulNaeem/multi-auth-role-permission",
+    "homepage": "https://github.com/Creative-soft-tech/multi_auth_role_permission",
     "type": "package",
     "authors": [
         {
-            "name": "ShafiulNaeem",
-            "email": "shafiulnaeemrifat@gmail.com",
+            "name": "Amir Sohel",
+            "email": "amirsohel.cse@gmail.com",
             "role": "Developer"
         }
     ],
