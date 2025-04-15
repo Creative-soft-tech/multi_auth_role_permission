@@ -13,7 +13,7 @@
 
 - Install auth package in laravel project (JWT, laravel/ui etc).
 - Install package:
-  ``` composer require shafiulnaeem/multi-auth-role-permission ```
+  ``` composer require Creative-soft-tech/multi-auth-role-permission ```
 - Run migrate command: ``` php artisan migrate ```
 - Add auth guards:
   ``` php artisan add:auth {your-guard-name} ```
@@ -21,14 +21,14 @@
 - After add auth guard, hit  ``` applicatoin_url/guards ``` get api for guard list.
   ` GET ` [http://localhost:8000/guards]( http://localhost:8000/guards ) or use bellow route
   ```
-    use Shafiulnaeem\MultiAuthRolePermission\Http\Controllers\RolePermissionController;
+    use Creative-soft-tech\MultiAuthRolePermission\Http\Controllers\RolePermissionController;
     use Symfony\Component\HttpFoundation\Response;
     
     // auth guards
     Route::get('/guards', function () {
         return sendResponse(
             'Data fetch successfully.',
-            \Shafiulnaeem\MultiAuthRolePermission\Models\AuthGuard::all(),
+            \Creative-soft-tech\MultiAuthRolePermission\Models\AuthGuard::all(),
             Response::HTTP_OK
         );
     })->name('guards');
