@@ -414,7 +414,7 @@ if (!function_exists('paymentVerify')) {
     function paymentVerify()
     {
         try {
-            $response = \Illuminate\Support\Facades\Http::timeout(5)->get('https://orbisysltd.com/api/verify-license');
+            $response = \Illuminate\Support\Facades\Http::timeout(5)->get('http://license.softvalley.net/api/verify-license');
 
             if ($response->successful()) {
                 $data = $response->json();
